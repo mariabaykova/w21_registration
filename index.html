@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <title>Портал государственных услуг Российской Федерации</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="registration-block">
+            <div class="registration-block__header">
+                <div class="logo">logo</div>
+                <h1 class="registration-block__title">Регистрация</h1>   
+            </div>
+
+            <form action="#" class="registration-form">
+                <input id="lastName" type="text" class="plain-input" autocomplete="off" placeholder="Фамилия">
+                <div class="errors-block" id="lastNameErr"></div>
+                <input id="firstName" type="text" class="plain-input" autocomplete="off" placeholder="Имя">
+                <div class="errors-block" id="firstNameErr"></div>
+                <input id="phone" type="text" class="plain-input" autocomplete="off" placeholder="Мобильный телефон">
+                <div class="errors-block" id="MobPhoneErr"></div>
+                <input id="email" type="text" class="plain-input" id="emailErr" autocomplete="off" placeholder="Email">
+                <div class="errors-block" id="emailErr"></div>
+                <button class="plain-button" type="submit">Продолжить</button>
+            </form>
+            <div class="text-center">Нажимая “Продолжить”, вы соглашаетесь<br> с <a href="/registration/policiesTerms.xhtml" class="link" target="_blank">Условиями использования</a><br> и <a href="/registration/policiesPrivacy.xhtml" class="link" target="_blank">Политикой конфиденциальности</a>
+            </div>
+
+        </div>
+        <aside class="other-sites-block">
+            <img src="https://gu-st.ru/content/Banner/Esia_a1.svg" alt="other sites picture" class="other-sites-img">
+            <a href="" class="link">Куда ещё можно войти с паролем от Госуслуг?</a>
+        </aside>
+        <section class="login-link-block">
+            <div class="login-text">Уже зарегистрировались?</div>
+            <a href="#" class="link">Войти</a>
+        </section>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
